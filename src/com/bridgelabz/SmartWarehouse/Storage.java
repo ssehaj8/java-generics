@@ -1,4 +1,5 @@
 package com.bridgelabz.smartWarehouse;
+
 import java.util.*;
 
 public class Storage<T extends WarehouseItem> {
