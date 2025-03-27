@@ -1,6 +1,7 @@
 package com.bridgelabz.courseManagementSystem;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Course<T extends CourseType> {
     private List<T> courseList = new ArrayList<>(); // Stores courses of type T
