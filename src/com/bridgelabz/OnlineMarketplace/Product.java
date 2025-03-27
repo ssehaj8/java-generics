@@ -29,6 +29,6 @@ public class Product<T extends Enum<T>> {
     }
 
     public void displayProduct() {
-        System.out.println("Product: " + name + " | Price: Rs." + price + " | Category: " + category);
+        System.out.println("Product: " + name + "Price: Rs" + price + "Category: " + category);
     }
 }
