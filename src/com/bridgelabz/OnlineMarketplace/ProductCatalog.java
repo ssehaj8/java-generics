@@ -11,7 +11,7 @@ public class ProductCatalog<T extends Enum<T>> {
     }
 
     public void displayCatalog() {
-        System.out.println("\n--- Product Catalog ---");
+        System.out.println("Product Catalog");
         for (int i = 0; i < products.size(); i++) {
             products.get(i).displayProduct();
         }

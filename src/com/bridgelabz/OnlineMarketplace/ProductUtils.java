@@ -5,6 +5,6 @@ public class ProductUtils {
         double discountAmount = product.getPrice() * (percentage / 100);
         double newPrice = product.getPrice() - discountAmount;
         product.setPrice(newPrice);
-        System.out.println("Discount applied: " + percentage + "% off on " + product.getName() + ". New Price: $" + newPrice);
+        System.out.println("Discount applied: " + percentage + "% off on " + product.getName() + ". New Price: " + newPrice);
     }
 }
