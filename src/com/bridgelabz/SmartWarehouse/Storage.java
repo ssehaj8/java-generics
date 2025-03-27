@@ -1,4 +1,4 @@
-package com.bridgelabz.smartWarehouse;
+package com.bridgelabz.SmartWarehouse;
 
 import java.util.*;
 

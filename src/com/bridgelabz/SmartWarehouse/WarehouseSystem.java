@@ -1,4 +1,4 @@
-package com.bridgelabz.smartWarehouse;
+package com.bridgelabz.SmartWarehouse;
 
 public class WarehouseSystem {
     public static void main(String[] args) {
