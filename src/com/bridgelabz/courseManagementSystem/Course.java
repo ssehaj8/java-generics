@@ -1,22 +1,19 @@
 package com.bridgelabz.courseManagementSystem;
 
-abstract class CourseType {
-    private String courseName;
-    private String department;
+import java.util.ArrayList;
+import java.util.List;
 
-    public CourseType(String courseName, String department) {
-        this.courseName = courseName;
-        this.department = department;
+public class Course<T extends CourseType> {
+    private List<T> courseList = new ArrayList<>(); // Stores courses of type T
+
+    public void addCourse(T course) {
+        courseList.add(course);
     }
 
-    public String getCourseName() {
-        return courseName;
+    public void displayAllCourses() {
+        for (T course : courseList) {
+            course.displayCourseInfo();
+        }
     }
-
-    public String getDepartment() {
-        return department;
-    }
-
-    public abstract void displayCourseInfo();
 }
 
