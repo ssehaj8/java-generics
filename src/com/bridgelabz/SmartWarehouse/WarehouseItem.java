@@ -1,4 +1,4 @@
-package com.bridgelabz.SmartWarehouse;
+package com.bridgelabz.smartWarehouse;
 
 // Abstract class representing a general warehouse item
 abstract class WarehouseItem {
@@ -17,7 +17,7 @@ abstract class WarehouseItem {
         return weight;
     }
 
-    public abstract void displayItemDetails(); // Method to display item details
+    public abstract void displayItemDetails(); // display item details
 }
 
 
